@@ -1,5 +1,5 @@
 import { AccountCircle } from "@mui/icons-material";
-import AdbIcon from "@mui/icons-material/Adb";
+import PetsIcon from '@mui/icons-material/Pets';
 import MenuIcon from "@mui/icons-material/Menu";
 import { Stack } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
@@ -80,7 +80,7 @@ function Header({ accounts, setAccounts, setNftOwners }) {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          <PetsIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -91,7 +91,7 @@ function Header({ accounts, setAccounts, setNftOwners }) {
               display: { xs: "none", md: "flex" },
               fontFamily: "monospace",
               fontWeight: 700,
-              letterSpacing: ".3rem",
+              // letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
             }}
@@ -135,7 +135,7 @@ function Header({ accounts, setAccounts, setNftOwners }) {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          <PetsIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -147,7 +147,7 @@ function Header({ accounts, setAccounts, setNftOwners }) {
               flexGrow: 1,
               fontFamily: "monospace",
               fontWeight: 700,
-              letterSpacing: ".3rem",
+              // letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
             }}

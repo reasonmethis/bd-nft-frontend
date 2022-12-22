@@ -17,8 +17,8 @@ const NFTGallery = ({ nftOwners }) => {
     : cfg.tokenIds.filter((id) => nftOwners[+id - 1].startsWith("0x"));
   return (
     <>
-      <Typography variant="h4" color="primary" textAlign="center">
-        NFKeeTees Gallery
+      <Typography variant="h3" color="text.secondary" textAlign="center">
+        Gallery
       </Typography>
       <FormControlLabel
         control={
